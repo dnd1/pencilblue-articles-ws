@@ -1,0 +1,33 @@
+{
+  "uid": "articles-api",
+  "name": "Sample Plugin",
+  "description": "This is a sample description just to give an idea of what this field should contain.  Provide details about the overall goal of the plugin along with any details information",
+  "version": "0.2.0",
+  "pb_version": "0.4.x",
+  "icon": "/imgs/sample.ico",
+  "author": {
+    "name": "John Doe",
+    "email": "john.doe@customdev.com",
+    "website": "http://www.customdev.com",
+    "contributors": [
+      {
+        "name": "Jane Doe",
+        "email": "jane.doe@customdev.com"
+      }
+    ]
+  },
+  "settings": [],
+  "permissions": {
+    "ACCESS_USER": [],
+    "ACCESS_WRITER": [],
+    "ACCESS_EDITOR": [],
+    "ACCESS_MANAGING_EDITOR": []
+  },
+  "main_module": {
+    "path": "sample.js"
+  },
+  "theme": {
+    "settings": [],
+    "content_templates": []
+  }
+}
